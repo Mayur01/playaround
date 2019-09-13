@@ -1,0 +1,4 @@
+xinput --list // to list all the devices connected.
+To disable:
+xinput disable 10 // 10 is id
+xinput enable 10 // to enable 10 is id
