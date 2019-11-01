@@ -9,3 +9,6 @@
 
 ## All About HTTP
 * https://developer.mozilla.org/en-US/docs/Web/HTTP
+
+## Ultimate guide for speech recognition using python
+* https://realpython.com/python-speech-recognition/
