@@ -1,0 +1,9 @@
+#For Horizontal view of docker images command.
+For Bash: 
+  export FORMAT="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.Image}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"
+  Usage: docker ps --format=$FORMAT
+  
+For ZSH:
+  echo 'export FORMAT="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.Image}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"' >> ~/.zshrc
+source ~/.zshrc
+  Usage: docker ps --format=$FORMAT
