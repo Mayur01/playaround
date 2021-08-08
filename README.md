@@ -12,3 +12,14 @@
 
 ## Ultimate guide for speech recognition using python
 * https://realpython.com/python-speech-recognition/
+
+## Docker format for Horizontal 
+* For ZSH:
+```
+echo 'export FORMAT="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE\t{{.Image}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"' >> ~/.zshrc
+source ~/.zshrc
+```
+* Usage: 
+```
+docker ps --format=$FORMAT
+```
